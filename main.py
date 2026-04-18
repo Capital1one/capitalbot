@@ -45,3 +45,5 @@ app.add_handler(CommandHandler("tesla", tesla))
 app.add_handler(CommandHandler("group", group))
 
 app.run_polling()
+if __name__ == "__main__":
+    app.run_polling()
